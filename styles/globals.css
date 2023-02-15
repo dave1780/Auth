@@ -16,11 +16,23 @@ a {
 }
 
 .form{
-  display: block;
-  margin-left: 30%;
-  margin-top: 15%;
+  border: 0.5px solid limegreen;
+  width:400px;
+  height: 300px;
+  margin-left: 5%;
+  margin-top:5%;
+ margin-right: 5%;
   
 }
-li{
+div{
+  margin-top: 80px;
+  margin-left: 50px;
   list-style: none;
+}
+button{
+  font-size: 25px;
+  border-radius: 5%;
+  background-color: limegreen ;
+  color: white ;
+  border:none;
 }

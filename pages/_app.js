@@ -1,18 +1,28 @@
-import '../styles/globals.css'
-
+import '../styles/globals.css';
 
 function MyApp({ Component, pageProps }) {
-  return(
+  return (
     <>
-     <form className="form">
-       <li>Username: <input required/></li>
-       <li>Email: <input required /></li>
-       <li>Password: <input required /> </li>
-       <li>confirm_Password: <input required /></li>
-       <button>Sign up</button>
-     </form>
-     <Component {...pageProps} />
-     </>)
+      <form className="form">
+        <div>
+        <li>
+          <input required placeholder="Username " />
+        </li>
+        <li>
+          <input placeholder="Email" required />
+        </li>
+        <li>
+          <input placeholder="Password" required />
+        </li>
+        <li>
+          <input placeholder="confirm_password" required />
+        </li>
+        <button>Sign up</button>
+        </div>
+      </form>
+      <Component {...pageProps} />
+    </>
+  );
 }
 
-export default MyApp
+export default MyApp;
